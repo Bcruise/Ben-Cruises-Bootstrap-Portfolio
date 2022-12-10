@@ -116,6 +116,30 @@
     margin-bottom: 30px;
   }
 
+  .work-div {
+    display: grid;
+    grid-template-areas: "project-one"
+    "project-two"
+    "project-three"
+    "project-four";
+  }
+
+  .project-one {
+    grid-area: project-one;
+  }
+
+  .project-two {
+    grid-area: project-two;
+  }
+
+  .project-three {
+    grid-area: project-three;
+  }
+
+  .project-four {
+    grid-area: project-four;
+  }
+
   .contact-me {
     display: flex;
     flex-direction: row;
@@ -125,6 +149,14 @@
   .about-me-text, .contact-me-text, .work-div {
     padding-right: 15px;
     color: var(--dark-red);
+  }
+
+  .footer-links {
+    cursor: pointer;
+  }
+
+  .footer-links:hover {
+    font-size: 1.05rem
   }
 
   .work {
