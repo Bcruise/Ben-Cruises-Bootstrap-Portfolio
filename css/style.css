@@ -153,10 +153,11 @@
 
   .footer-links {
     cursor: pointer;
+    color: white;
   }
 
   .footer-links:hover {
-    font-size: 1.05rem
+    font-size: 1.1rem;
   }
 
   .work {
