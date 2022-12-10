@@ -79,7 +79,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background: linear-gradient(to right, rgba(255,255,255,.6), rgba(255,255,255,0) 75%), url(/images/GettyImages-1224500457-e1643727629417.png);
+    background: linear-gradient(to right, rgba(255,255,255,.6), rgba(255,255,255,0) 75%),
+     url(https://github.com/Bcruise/Bootstrap-Portfolio/blob/main/images/GettyImages-1224500457-e1643727629417.png);
     background-size: 100%;
     color: white;
     height: 200px;
@@ -110,7 +111,7 @@
     font-size: 35px;
   }
 
-  .about-me, .work {
+  .about-me, .skills, .work {
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
@@ -146,7 +147,7 @@
     margin-bottom: 30px;
   }
 
-  .about-me-text, .contact-me-text, .work-div {
+  .about-me-text, .skills-text, .contact-me-text, .work-div {
     padding-right: 15px;
     color: var(--dark-red);
   }
@@ -164,20 +165,19 @@
     margin-left: 10px;
   }
 
-  .about-me-title, .contact-me-title, .work-title {
+  .about-me-title, .skills-title, .contact-me-title, .work-title {
     border-right: 5px solid var(--dark-red);
     color: var(--dark-red);
   }
 
-  @media (max-width: 768px) {
-    .col-md-12 {
-      display: flex;
-      justify-content: center;
-    }
+  .col-md-12 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jumbotron div{
+    margin-bottom: -40px;
   }
 
-  @media (min-width: 576px) {
-    .jumbotron div{
-      margin-bottom: -40px;
-    }
-  }
+
+  
