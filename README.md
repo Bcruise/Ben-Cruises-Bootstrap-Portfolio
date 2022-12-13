@@ -21,4 +21,4 @@ Clone the code into your terminal from the repository.
 
 ## Link
 
-Follow the following link for the GitHub Pages page - https://Bcruise.github.io/Bootstrap-Portfolio/
+Follow the following link for the GitHub Pages page - https://Bcruise.github.io/Ben-Cruises-Bootstrap-Portfolio/
