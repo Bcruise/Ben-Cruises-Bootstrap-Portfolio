@@ -17,7 +17,7 @@ Clone the code into your terminal from the repository.
 
 ## Screenshot
 
-![alt text](https://github.com/Bcruise/Bootstrap-Portfolio/blob/main/images/Portfolio-Page.png)
+![alt text](https://github.com/Bcruise/Ben-Cruises-Bootstrap-Portfolio/blob/main/images/Portfolio-Page.png)
 
 ## Link
 
